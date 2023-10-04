@@ -26,7 +26,7 @@
 <!-- PROJECT DESCRIPTION -->
 # 📖 hello_react_frontend_app<a name="about-project"></a> 
 
-> **[hello_react_frontend]** is a react app designed to consume API endpoint provided by [hello_rails_backend](https://github.com/Enoisong/hello_rails_backend.git) to display greetings.
+> **[hello_react_frontend]** is a react app designed to consume API endpoint provided by [hello_rails_backend](https://github.com/Enoisong/hello_rails_backend/tree/greetings) to display greetings.
  
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
