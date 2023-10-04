@@ -31,16 +31,14 @@
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
- > This database is created using:
+ > This app is created using:
   - React
-  - Redux
-  - React
+  - Redux 
  
  <details>
   <summary>Client Side / Front-End</summary>
-  <ul><
-    <li><a href="https://https://https://gorails.com/">Ruby on Rails</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+  <ul>
+    <li><a href="https://betterprogramming.pub/react-with-rails-2022-bd28e1fcd355#ad0a">How to Use React in a Ruby on Rails App</a></li>    
   </ul>
 </details>
 
