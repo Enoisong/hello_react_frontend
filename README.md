@@ -1,4 +1,4 @@
-  # hello_rails_react
+  # hello_react_frontend
   
   <a name="readme-top"></a>
  # 📗 Table of Contents
@@ -24,23 +24,21 @@
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
-# 📖 hello_rails_react_app<a name="about-project"></a> 
+# 📖 hello_react_frontend_app<a name="about-project"></a> 
 
-> **[hello_rails_react]** is an application built to create api endpoints to be consumed by react frontend.
+> **[hello_react_frontend]** is a react app designed to consume API endpoint provided by [hello_rails_backend](https://github.com/Enoisong/hello_rails_backend/tree/greetings) to display greetings.
  
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
- > This database is created using:
-  - Ruby on Rails
-  - Postgres
+ > This app is created using:
   - React
+  - Redux 
  
  <details>
   <summary>Client Side / Front-End</summary>
-  <ul><
-    <li><a href="https://https://https://gorails.com/">Ruby on Rails</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+  <ul>
+    <li><a href="https://betterprogramming.pub/react-with-rails-2022-bd28e1fcd355#ad0a">How to Use React in a Ruby on Rails App</a></li>    
   </ul>
 </details>
 
@@ -48,17 +46,13 @@
   <summary>Server Side / Back-End</summary>
   <ul>
     <li><a href="https://postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://render.com/">Render</a></li>
-    <li><a href="https://https://gorails.com/">Rails</a></li>
-    <li><a href="https://betterprogramming.pub/react-with-rails-2022-bd28e1fcd355#ad0a/">How to Use React in a Ruby on Rails App"</a></li>
-    
+     
   </ul>
 </details>
 
  ### Key Features <a name="key-features"></a>
  
-  - **[Creating API endpoints with rails]**
-  - **[Using react redux in rails project]**     
+  - **[Rendering greetings from rails API]**   
   
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
@@ -74,46 +68,36 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Enoisong/hello_rails_react.git
+  git clone https://github.com/Enoisong/hello_react_frontend.git
 ```
 
 ### Install
 
 Install this project with:
+- React 
 - Ruby on Rails environment installed
 - PostgreSQL database installer
 - Run `sudo bundle install` to install all the required dependencies.
 
 ### Usage
 
-To run the project:
-
-Create the database by running the following command:
-
-```sh
-rails db:create
-```
-
-Load the database schema with this command:
-
-```sh
-rails db:load
-```
-
-Seed the database with the following command:
-
-```sh
-rails db:seed
-```
+To run the project:  
 
 Start the server by running the following command:
 
 ```sh
-rails server
+npm start
+
+Bundles the app into static files for production:
+
+``` sh
+npm run build
 ```
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 ## 👥 Author <a name="author"></a>  
  
 👤 **Author**
